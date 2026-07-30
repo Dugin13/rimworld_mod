@@ -4,7 +4,7 @@
 	<ThingDef ParentName="CMeatBase">
 		<defName>CMeatBlueGel</defName>
 		<label>Cultivate Blue Gel</label>
-		<description>An engineered gel culture tuned to produce refined blue gel for use in Alpha Animals power chains.</description>
+		<description>An engineered gel culture tuned to produce blue gel</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Nutrition>0</Nutrition>
