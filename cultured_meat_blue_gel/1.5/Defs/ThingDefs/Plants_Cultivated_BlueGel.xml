@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="CMeatBase">
+		<defName>CMeatBlueGel</defName>
+		<label>Cultivate Blue Gel</label>
+		<description>An engineered gel culture tuned to produce refined blue gel for use in Alpha Animals power chains.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Meat/BlueMeat_Growing</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<pathCost>10</pathCost>
+		<ingestible />
+		<plant>
+			<dieIfLeafless>true</dieIfLeafless>
+			<maxMeshCount>4</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>AA_BlueGel</harvestedThingDef>
+			<harvestYield>12</harvestYield>
+			<growDays>8.2</growDays>
+		</plant>
+	</ThingDef>
+
+</Defs>
