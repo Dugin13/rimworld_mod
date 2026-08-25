@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Lancer Weapon Variants</name>
+	<packageId>niels.lancerweaponvariants</packageId>
+	<author>Niels</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Adds three new lancer variants to RimWorld mechanoid forces: an assault lancer, a sniper lancer, and a charge lancer.</description>
+</ModMetaData>

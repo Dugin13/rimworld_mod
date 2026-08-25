@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecipeDef ParentName="MediumMechanoidRecipe" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>LancerAssault</defName>
+		<label>gestate assault lancer</label>
+		<description>Gestate a lancer mechanoid armed with an assault rifle.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mech_LancerAssault>1</Mech_LancerAssault>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_LancerAssault</ThingDef>
+		</descriptionHyperlinks>
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MediumMechanoidRecipe" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>LancerSniper</defName>
+		<label>gestate sniper lancer</label>
+		<description>Gestate a lancer mechanoid armed with a sniper rifle.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mech_LancerSniper>1</Mech_LancerSniper>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_LancerSniper</ThingDef>
+		</descriptionHyperlinks>
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MediumMechanoidRecipe" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>LancerCharge</defName>
+		<label>gestate charge lancer</label>
+		<description>Gestate a lancer mechanoid armed with a charge rifle.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mech_LancerCharge>1</Mech_LancerCharge>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_LancerCharge</ThingDef>
+		</descriptionHyperlinks>
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+	</RecipeDef>
+</Defs>

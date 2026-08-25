@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Light Converter Demo</name>
+  <author>Copilot</author>
+  <packageId>copilot.lightconverterdemo</packageId>
+  <url>https://example.com</url>
+  <description>A small RimWorld mod that adds a building which converts power into light.</description>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+</ModMetaData>

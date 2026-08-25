@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/weaponTags</xpath>
+		<value>
+			<li>LancerVariant_AssaultRifle</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_SniperRifle"]/weaponTags</xpath>
+		<value>
+			<li>LancerVariant_SniperRifle</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_ChargeRifle"]/weaponTags</xpath>
+		<value>
+			<li>LancerVariant_ChargeRifle</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[options/Mech_Lancer]/options</xpath>
+		<value>
+			<Mech_LancerAssault>3</Mech_LancerAssault>
+			<Mech_LancerSniper>3</Mech_LancerSniper>
+			<Mech_LancerCharge>3</Mech_LancerCharge>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BossgroupDef[waves/li/escorts/Mech_Lancer]/waves/li[escorts/Mech_Lancer]/escorts</xpath>
+		<value>
+			<Mech_LancerAssault>2</Mech_LancerAssault>
+			<Mech_LancerSniper>2</Mech_LancerSniper>
+			<Mech_LancerCharge>2</Mech_LancerCharge>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[comps/li[@Class="CompProperties_MechGestatorTank"]/mechKindOptions/Mech_Lancer]/comps/li[@Class="CompProperties_MechGestatorTank"]/mechKindOptions</xpath>
+		<value>
+			<Mech_LancerAssault />
+			<Mech_LancerSniper />
+			<Mech_LancerCharge />
+		</value>
+	</Operation>
+</Patch>
