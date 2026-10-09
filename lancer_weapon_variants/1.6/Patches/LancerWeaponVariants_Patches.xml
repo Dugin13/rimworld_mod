@@ -31,6 +31,24 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="LargeMechGestator"]/recipes</xpath>
+		<value>
+			<li>LancerAssault</li>
+			<li>LancerSniper</li>
+			<li>LancerCharge</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="ResurrectMediumMech"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_Mech_LancerAssault</li>
+			<li>Corpse_Mech_LancerSniper</li>
+			<li>Corpse_Mech_LancerCharge</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BossgroupDef[waves/li/escorts/Mech_Lancer]/waves/li[escorts/Mech_Lancer]/escorts</xpath>
 		<value>
 			<Mech_LancerAssault>2</Mech_LancerAssault>
